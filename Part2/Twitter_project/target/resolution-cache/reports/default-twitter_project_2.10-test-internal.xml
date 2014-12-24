@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="twitter_project_2.10"
+		revision="0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20141218080851"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="2.0.M7" status="release" pubdate="20130910111421" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6657" time="0" location="C:\Users\Dell\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-2.0.M7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M7/scalatest_2.10-2.0.M7.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.0.M7" rev-constraint-default="2.0.M7" rev-constraint-dynamic="2.0.M7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="7086378" time="0" location="C:\Users\Dell\.ivy2\cache\org.scalatest\scalatest_2.10\jars\scalatest_2.10-2.0.M7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M7/scalatest_2.10-2.0.M7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-actors">
+			<revision name="2.10.2" status="release" pubdate="20130606140651" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="35">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.2/scala-actors-2.10.2.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-actors" type="jar" ext="jar" status="no" details="" size="477112" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.2/scala-actors-2.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.12" status="release" pubdate="20130426123117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10577" time="0" location="C:\Users\Dell\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.12/logback-classic-1.0.12.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.0.12" rev-constraint-default="1.0.12" rev-constraint-dynamic="1.0.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="264789" time="0" location="C:\Users\Dell\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.0.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.12/logback-classic-1.0.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.4" status="release" pubdate="20130318104846" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="34">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="C:\Users\Dell\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.4/slf4j-api-1.7.4.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.4" rev-constraint-default="1.7.4" rev-constraint-dynamic="1.7.4" callerrev="1.0.12"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26083" time="0" location="C:\Users\Dell\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.4/slf4j-api-1.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" status="release" pubdate="20121011145524" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="C:\Users\Dell\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+				<evicted-by rev="1.7.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.12" status="release" pubdate="20130426123033" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="33">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9662" time="0" location="C:\Users\Dell\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.0.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.12/logback-core-1.0.12.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.12" rev-constraint-default="1.0.12" rev-constraint-dynamic="1.0.12" callerrev="1.0.12"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="415181" time="0" location="C:\Users\Dell\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.0.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.12/logback-core-1.0.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
+			<revision name="2.2.0" status="release" pubdate="20130709055628" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3095" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.0/akka-slf4j_2.10-2.2.0.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="no" details="" size="14477" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\bundles\akka-slf4j_2.10-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.0/akka-slf4j_2.10-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.10">
+			<revision name="2.2.0" status="release" pubdate="20130709055550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2936" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.0/akka-testkit_2.10-2.2.0.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.10" type="bundle" ext="jar" status="no" details="" size="238287" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\bundles\akka-testkit_2.10-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.0/akka-testkit_2.10-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.0" status="release" pubdate="20140115100944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, compile(*), runtime(*), master(compile)" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe\config\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.3"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="217897" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe\config\bundles\config-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile)" position="-1">
+				<evicted-by rev="1.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.3"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.azavea.geotrellis" name="geotrellis_2.10">
+			<revision name="0.9.0" status="release" pubdate="20140212141727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://geotrellis.github.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4787" time="0" location="C:\Users\Dell\.ivy2\cache\com.azavea.geotrellis\geotrellis_2.10\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/azavea/geotrellis/geotrellis_2.10/0.9.0/geotrellis_2.10-0.9.0.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="geotrellis_2.10" type="jar" ext="jar" status="no" details="" size="3189971" time="0" location="C:\Users\Dell\.ivy2\cache\com.azavea.geotrellis\geotrellis_2.10\jars\geotrellis_2.10-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/azavea/geotrellis/geotrellis_2.10/0.9.0/geotrellis_2.10-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402153128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="9523" time="0" location="C:\Users\Dell\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="1692782" time="0" location="C:\Users\Dell\.ivy2\cache\org.apache.commons\commons-math3\jars\commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-routing">
+			<revision name="1.2.0" status="release" pubdate="20131213102939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3628" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-routing\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-routing/1.2.0/spray-routing-1.2.0.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-routing" type="bundle" ext="jar" status="no" details="" size="1027828" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-routing\bundles\spray-routing-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-routing/1.2.0/spray-routing-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.10">
+			<revision name="1.2.4" status="release" pubdate="20130226145121" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="29">
+				<license name="Apache License" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2679" time="0" location="C:\Users\Dell\.ivy2\cache\com.chuusai\shapeless_2.10\ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.10/1.2.4/shapeless_2.10-1.2.4.pom"/>
+				<caller organisation="io.spray" name="spray-routing" conf="default, compile, runtime, master" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="shapeless_2.10" type="jar" ext="jar" status="no" details="" size="1280423" time="0" location="C:\Users\Dell\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.10/1.2.4/shapeless_2.10-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-client">
+			<revision name="1.2.0" status="release" pubdate="20131213103153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3581" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-client\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-client/1.2.0/spray-client-1.2.0.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="spray-client" type="bundle" ext="jar" status="no" details="" size="44966" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-client\bundles\spray-client-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-client/1.2.0/spray-client-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx">
+			<revision name="1.2.0" status="release" pubdate="20131213103101" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4220" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-httpx\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-httpx/1.2.0/spray-httpx-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-routing" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-httpx" type="bundle" ext="jar" status="no" details="" size="456464" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-httpx\bundles\spray-httpx-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-httpx/1.2.0/spray-httpx-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.10">
+			<revision name="1.2.5" status="release" pubdate="20131217033437" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-json_2.10\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-json_2.10" type="jar" ext="jar" status="no" details="" size="321503" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-json_2.10\jars\spray-json_2.10-1.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.3" status="release" pubdate="20130419054423" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="26">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3830" time="0" location="C:\Users\Dell\.ivy2\cache\org.jvnet.mimepull\mimepull\ivy-1.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.3/mimepull-1.9.3.pom"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="62135" time="0" location="C:\Users\Dell\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.3/mimepull-1.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can">
+			<revision name="1.2.0" status="release" pubdate="20131213102854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, compile(*), runtime(*), master(compile), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3435" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-can\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-can/1.2.0/spray-can-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-can" type="bundle" ext="jar" status="no" details="" size="711450" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-can\bundles\spray-can-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-can/1.2.0/spray-can-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io">
+			<revision name="1.2.0" status="release" pubdate="20131213103217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3200" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-io\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-io/1.2.0/spray-io-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-io" type="bundle" ext="jar" status="no" details="" size="193565" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-io\bundles\spray-io-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-io/1.2.0/spray-io-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http">
+			<revision name="1.2.0" status="release" pubdate="20131213103038" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3185" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-http\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-http/1.2.0/spray-http-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-routing" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-http" type="bundle" ext="jar" status="no" details="" size="1282343" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-http\bundles\spray-http-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-http/1.2.0/spray-http-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.10">
+			<revision name="1.1.6" status="release" pubdate="20130826065413" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3005" time="0" location="C:\Users\Dell\.ivy2\cache\org.parboiled\parboiled-scala_2.10\ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.pom"/>
+				<caller organisation="io.spray" name="spray-json_2.10" conf="default, compile, runtime, master" rev="1.1.5" rev-constraint-default="1.1.5" rev-constraint-dynamic="1.1.5" callerrev="1.2.5"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.10" type="bundle" ext="jar" status="no" details="" size="237780" time="0" location="C:\Users\Dell\.ivy2\cache\org.parboiled\parboiled-scala_2.10\bundles\parboiled-scala_2.10-1.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="1.1.6"/>
+				<caller organisation="io.spray" name="spray-json_2.10" conf="default, compile, runtime, master" rev="1.1.5" rev-constraint-default="1.1.5" rev-constraint-dynamic="1.1.5" callerrev="1.2.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.6" status="release" pubdate="20130822113221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="24">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\Dell\.ivy2\cache\org.parboiled\parboiled-core\ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.1.6"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="bundle" ext="jar" status="no" details="" size="187091" time="0" location="C:\Users\Dell\.ivy2\cache\org.parboiled\parboiled-core\bundles\parboiled-core-1.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util">
+			<revision name="1.2.0" status="release" pubdate="20131213102915" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3177" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-util\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-util/1.2.0/spray-util-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-routing" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-util" type="bundle" ext="jar" status="no" details="" size="128707" time="0" location="C:\Users\Dell\.ivy2\cache\io.spray\spray-util\bundles\spray-util-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-util/1.2.0/spray-util-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.10">
+			<revision name="0.4.0" status="release" pubdate="20130512002123" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="17">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2922" time="0" location="C:\Users\Dell\.ivy2\cache\org.spire-math\spire_2.10\ivy-0.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.4.0/spire_2.10-0.4.0.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="spire_2.10" type="jar" ext="jar" status="no" details="" size="7009290" time="0" location="C:\Users\Dell\.ivy2\cache\org.spire-math\spire_2.10\jars\spire_2.10-0.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.4.0/spire_2.10-0.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.6.1" status="release" pubdate="20101007003514" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2691" time="0" location="C:\Users\Dell\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.1/jackson-mapper-asl-1.6.1.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="542255" time="0" location="C:\Users\Dell\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\jars\jackson-mapper-asl-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.1/jackson-mapper-asl-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.6.1" status="release" pubdate="20101007003501" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2466" time="0" location="C:\Users\Dell\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.1/jackson-core-asl-1.6.1.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.9.0"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="200979" time="0" location="C:\Users\Dell\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.1/jackson-core-asl-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-cluster_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023044049" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3363" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-cluster_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.3/akka-cluster_2.10-2.2.3.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="akka-cluster_2.10" type="bundle" ext="jar" status="no" details="" size="962015" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-cluster_2.10\bundles\akka-cluster_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.3/akka-cluster_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10">
+			<revision name="1.2.0" status="release" pubdate="20130506154930" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SandroGrzicic/ScalaBuff" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="14">
+				<license name="Apache" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2864" time="0" location="C:\Users\Dell\.ivy2\cache\net.sandrogrzicic\scalabuff-runtime_2.10\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="scalabuff-runtime_2.10" type="jar" ext="jar" status="no" details="" size="19948" time="0" location="C:\Users\Dell\.ivy2\cache\net.sandrogrzicic\scalabuff-runtime_2.10\jars\scalabuff-runtime_2.10-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023043831" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile)" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3852" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.3/akka-remote_2.10-2.2.3.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.9.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2-M3" rev-constraint-default="2.2-M3" rev-constraint-dynamic="2.2-M3" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="akka-remote_2.10" type="bundle" ext="jar" status="no" details="" size="1277288" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\bundles\akka-remote_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.3/akka-remote_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2-M3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), default, compile, runtime, master" position="-1">
+				<evicted-by rev="2.2.3"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2-M3" rev-constraint-default="2.2-M3" rev-constraint-dynamic="2.2-M3" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408095605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2783" time="0" location="C:\Users\Dell\.ivy2\cache\org.uncommons.maths\uncommons-maths\ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="C:\Users\Dell\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.4.1" status="release" pubdate="20110706153342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="11">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="C:\Users\Dell\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
+				<caller organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10" conf="compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="1.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="450279" time="0" location="C:\Users\Dell\.ivy2\cache\com.google.protobuf\protobuf-java\jars\protobuf-java-2.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.6.6.Final" status="release" pubdate="20130515022624" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6581" time="0" location="C:\Users\Dell\.ivy2\cache\io.netty\netty\ivy-3.6.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="3.6.6.Final" rev-constraint-default="3.6.6.Final" rev-constraint-dynamic="3.6.6.Final" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1206119" time="0" location="C:\Users\Dell\.ivy2\cache\io.netty\netty\bundles\netty-3.6.6.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-kernel_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023043700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3061" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-kernel_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.3/akka-kernel_2.10-2.2.3.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="akka-kernel_2.10" type="jar" ext="jar" status="no" details="" size="14419" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-kernel_2.10\jars\akka-kernel_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.3/akka-kernel_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023043548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile), default" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2683" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-kernel_2.10" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.9.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2669443" time="0" location="C:\Users\Dell\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vividsolutions" name="jts">
+			<revision name="1.12" status="release" pubdate="20110626051209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jts-topo-suite" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="4">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.txt"/>
+				<metadata-artifact status="no" details="" size="3135" time="0" location="C:\Users\Dell\.ivy2\cache\com.vividsolutions\jts\ivy-1.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.12/jts-1.12.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="jts" type="jar" ext="jar" status="no" details="" size="770462" time="0" location="C:\Users\Dell\.ivy2\cache\com.vividsolutions\jts\jars\jts-1.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.12/jts-1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.4.0" status="release" pubdate="20051108165132" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="5">
+				<metadata-artifact status="no" details="" size="2213" time="0" location="C:\Users\Dell\.ivy2\cache\xerces\xercesImpl\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.4.0/xercesImpl-2.4.0.pom"/>
+				<caller organisation="com.vividsolutions" name="jts" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.12"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="895924" time="0" location="C:\Users\Dell\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.4.0/xercesImpl-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.azavea.geotrellis" name="geotrellis-macros_2.10">
+			<revision name="0.9.0" status="release" pubdate="20140212141654" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://geotrellis.github.io" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="C:\Users\Dell\.ivy2\cache\com.azavea.geotrellis\geotrellis-macros_2.10\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/azavea/geotrellis/geotrellis-macros_2.10/0.9.0/geotrellis-macros_2.10-0.9.0.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="geotrellis-macros_2.10" type="jar" ext="jar" status="no" details="" size="3536" time="0" location="C:\Users\Dell\.ivy2\cache\com.azavea.geotrellis\geotrellis-macros_2.10\jars\geotrellis-macros_2.10-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/azavea/geotrellis/geotrellis-macros_2.10/0.9.0/geotrellis-macros_2.10-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.2" status="release" pubdate="20130606140608" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2870" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.9.0"/>
+				<caller organisation="org.spire-math" name="spire_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.4.0"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis-macros_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3171168" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="2.10.2"/>
+				<caller organisation="org.spire-math" name="spire_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.4.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927054454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile), default" position="2">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.9.0"/>
+				<caller organisation="io.spray" name="spray-json_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2.5"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.10.2"/>
+				<caller organisation="org.spire-math" name="spire_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.4.0"/>
+				<caller organisation="org.scala-lang" name="scala-actors" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.10.2"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0.M7"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.1.6"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.azavea.geotrellis" name="geotrellis-macros_2.10" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.9.0"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-kernel_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.2.4"/>
+				<caller organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="io.spray" name="spray-util" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-routing" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.2" status="release" pubdate="20130606140543" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\Dell\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
+				<evicted-by rev="2.10.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-kernel_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.10.2"/>
+				<caller organisation="org.scala-lang" name="scala-actors" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.10.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="default" name="twitter_project_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.1.6"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="2.10.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.2.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0.M7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<evicted-by rev="2.10.3"/>
+				<caller organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-json_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2.5"/>
+				<caller organisation="org.spire-math" name="spire_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.4.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
