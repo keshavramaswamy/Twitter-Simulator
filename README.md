@@ -14,6 +14,6 @@ Files
 
 3.Twitter REST API
 
---* TwitterMain.scala
+--*  TwitterMain.scala
 
---* TwiiterRestApi.scala
+--*  TwiiterRestApi.scala
