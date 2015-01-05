@@ -10,10 +10,10 @@ Files
 
 2.Server
 
-  1.Server.scala
+  1. Server.scala
 
 3.Twitter REST API
 
-  1.  TwitterMain.scala
+  1. TwitterMain.scala
 
-  2.  TwitterRestApi.scala
+  2. TwitterRestApi.scala
