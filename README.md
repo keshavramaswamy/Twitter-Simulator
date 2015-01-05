@@ -6,14 +6,14 @@ Files
 =========
 1.Client
 
---* Client.scala
+  1. Client.scala
 
 2.Server
 
---* Server.scala
+  1.Server.scala
 
 3.Twitter REST API
 
---*  TwitterMain.scala
+  1.  TwitterMain.scala
 
---*  TwiiterRestApi.scala
+  2.  TwitterRestApi.scala
