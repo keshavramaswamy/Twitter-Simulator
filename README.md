@@ -1,6 +1,6 @@
 Twitter Simulator
 =================
-* An application which simulates Twitter functionalities using Scala and AKKA actor model was developed.
+* An application which simulates Twitter operations using Scala and AKKA actor model was developed.
 * Functionalities similar to REST APIs such as Post Tweet, Get Tweet using Spray-Can. 
 * Hash tag search and Peak hour simulation were also implemented.
 * High scalability achieved and Twitter statistics were simulated.
